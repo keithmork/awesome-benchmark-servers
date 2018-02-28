@@ -1,0 +1,12 @@
+.idea/
+.git/
+__pycache__/
+.pyc
+.DS_Store
+
+report/*
+test/*
+coverage/*
+node_modules/
+
+*.log

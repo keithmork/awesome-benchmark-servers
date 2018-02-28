@@ -1,0 +1,39 @@
+{
+  "name": "hello-websocket",
+  "version": "1.0.0",
+  "description": "Simple hello world WebSocket server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:keithmork/awesome-benchmark-servers.git"
+  },
+  "keywords": [
+    "benchmark",
+    "websocket"
+  ],
+  "author": "Keith Mo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keithmork/awesome-benchmark-servers/issues"
+  },
+  "homepage": "https://github.com/keithmork/awesome-benchmark-servers#readme",
+  "optionalDependencies": {
+    "bufferutil": "^3.0.3",
+    "utf-8-validate": "^4.0.0",
+    "ws": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
