@@ -1,0 +1,40 @@
+{
+    "name": "hello-http",
+    "version": "1.1.0",
+    "description": "Simple hello world HTTP server.",
+    "main": "simple_server.js",
+    "scripts": {
+        "start": "node simple_server.js > log.log 2>&1 &",
+        "stop": "sudo kill -15 $(ps aux | grep -v grep | grep 'simple_server.js')"
+    },
+    "engines": {
+        "node": ">=8.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:keithmork/common-benchmarks.git"
+    },
+    "keywords": [
+        "benchmark",
+        "http"
+    ],
+    "author": "Keith Mo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/keithmork/common-benchmarks/issues"
+    },
+    "homepage": "https://github.com/keithmork/common-benchmarks#readme",
+    "devDependencies": {
+        "eslint": "^4.17.0",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.6.1"
+    },
+    "dependencies": {
+        "cors": "^2.8.4",
+        "express": "^4.15.4",
+        "morgan": "^1.8.2",
+        "randomstring": "^1.1.5"
+    }
+}
